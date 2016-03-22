@@ -1,0 +1,15 @@
+{
+    "status": 1,
+    "message": "ok",
+    "data": {
+        "list": [{
+                 "name": "\u8352\u91ce\u730e\u4eba",
+                 "film_id": "178486",
+                 "poster_url": "http:\/\/mu1.sinaimg.cn\/frame.180x240\/weiyinyue.music.sina.com.cn\/movie_poster\/178486_vertical.jpg"
+                 }],
+        "show_name": "\u60f3\u770b\u7684\u7535\u5f71",
+        "count": 1,
+        "more_text": "1\u90e8",
+        "link": "sinaweibo:\/\/cardlist?containerid=10100310001_-_filmuserwant"
+    }
+}

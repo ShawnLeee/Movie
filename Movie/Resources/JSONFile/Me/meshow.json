@@ -1,0 +1,35 @@
+{
+    "status": 1,
+    "message": "ok",
+    "data": {
+        "profile_info": {
+            "id": 1815695812,
+            "name": "\u8ffd\u98ce\u7b5d\u6ef4\u5c0f\u8717\u725b",
+            "avatar_large": "http:\/\/tp1.sinaimg.cn\/1815695812\/180\/40075228916\/1",
+            "gender": "m",
+            "cover_image_phone": "http:\/\/ww1.sinaimg.cn\/crop.0.0.640.640\/7c85468fjw1e8yq8nhrzwj20hs0hsac1.jpg",
+            "is_group_user": false,
+            "follow": false,
+            "url": "sinaweibo:\/\/userinfo?uid=1815695812",
+            "background_url": "http:\/\/ww1.sinaimg.cn\/crop.0.0.640.640\/7c85468fjw1e8yq8nhrzwj20hs0hsac1.jpg"
+        },
+        "my_ticket": {
+            "icon": "http:\/\/image2.sina.com.cn\/music\/web\/product\/movie\/mobile\/mine_movie_ticket.png",
+            "show_name": "\u6211\u7684\u7535\u5f71\u7968",
+            "link": ""
+        },
+        "my_pagelistreview": {
+            "icon": "http:\/\/image2.sina.com.cn\/music\/web\/product\/movie\/mobile\/mine_film_list.png",
+            "show_name": "\u6211\u7684\u5f71\u5355",
+            "link": "sinaweibo:\/\/cardlist?containerid=10100310001_-_yingdanlist"
+        },
+        "profile_wanttosee": {
+            "is_asyn": 1,
+            "url": "http:\/\/movie.weibo.com\/movieapp\/mesdk\/wanttosee?uid=1815695812&count=4&is_asyn=1"
+        },
+        "profile_haveseen": {
+            "is_asyn": 1,
+            "url": "http:\/\/movie.weibo.com\/movieapp\/mesdk\/haveseen?uid=1815695812&count=4&is_asyn=1"
+        }
+    }
+}

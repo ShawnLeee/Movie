@@ -1,0 +1,19 @@
+{
+    "status": 1,
+    "message": "ok",
+    "data": {
+        "list": [{
+                 "name": "\u6a2a\u51b2\u76f4\u649e\u597d\u83b1\u575e",
+                 "film_id": "177133",
+                 "poster_url": "http:\/\/mu1.sinaimg.cn\/frame.180x240\/weiyinyue.music.sina.com.cn\/movie_poster\/177133_vertical.jpg"
+                 }, {
+                 "name": "\u5355\u8eab\u7537\u59732",
+                 "film_id": "176839",
+                 "poster_url": "http:\/\/mu1.sinaimg.cn\/frame.180x240\/weiyinyue.music.sina.com.cn\/movie_poster\/176839_vertical.jpg"
+                 }],
+        "show_name": "\u770b\u8fc7\u7684\u7535\u5f71",
+        "count": 2,
+        "more_text": "2\u90e8",
+        "link": "sinaweibo:\/\/cardlist?containerid=10100310001_-_haveseenmovielist"
+    }
+}

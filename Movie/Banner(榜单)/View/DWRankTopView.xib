@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DWRankTopView" customModule="Movie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="228"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NN5-Ej-ywb">
+                    <rect key="frame" x="0.0" y="0.0" width="429" height="184"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="184" id="2Qh-gQ-G2W"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeC-Kr-y8f">
+                    <rect key="frame" x="0.0" y="154" width="429" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40180495689655171" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="kfA-u7-qcb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="榜单规则"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rdo-UD-cU9">
+                    <rect key="frame" x="0.0" y="184" width="429" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Rdo-UD-cU9" secondAttribute="bottom" id="2eN-DA-t64"/>
+                <constraint firstItem="NN5-Ej-ywb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Hek-Gl-zm8"/>
+                <constraint firstItem="LeC-Kr-y8f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NAR-K7-td6"/>
+                <constraint firstItem="LeC-Kr-y8f" firstAttribute="bottom" secondItem="NN5-Ej-ywb" secondAttribute="bottom" id="P18-Fn-N3z"/>
+                <constraint firstItem="Rdo-UD-cU9" firstAttribute="top" secondItem="LeC-Kr-y8f" secondAttribute="bottom" id="QWZ-MO-obi"/>
+                <constraint firstAttribute="trailing" secondItem="NN5-Ej-ywb" secondAttribute="trailing" id="SDn-4L-hO3"/>
+                <constraint firstAttribute="trailing" secondItem="Rdo-UD-cU9" secondAttribute="trailing" id="VJl-3X-ZL6"/>
+                <constraint firstAttribute="trailing" secondItem="LeC-Kr-y8f" secondAttribute="trailing" id="e5I-3E-JqM"/>
+                <constraint firstItem="Rdo-UD-cU9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lc2-mT-dUr"/>
+                <constraint firstItem="NN5-Ej-ywb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qI0-L7-Xlp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="requiteBtn" destination="LeC-Kr-y8f" id="Au1-qE-2mO"/>
+                <outlet property="toolBar" destination="Rdo-UD-cU9" id="7L7-Zg-HRS"/>
+                <outlet property="topImageView" destination="NN5-Ej-ywb" id="nYZ-PW-3I6"/>
+            </connections>
+            <point key="canvasLocation" x="263.5" y="217"/>
+        </view>
+    </objects>
+</document>
