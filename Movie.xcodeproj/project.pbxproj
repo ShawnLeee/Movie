@@ -51,6 +51,7 @@
 		659DA1371C9A5EFC007CF258 /* DWRankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DA1361C9A5EFC007CF258 /* DWRankService.swift */; };
 		659DA13A1C9A63ED007CF258 /* DWRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DA1381C9A63ED007CF258 /* DWRankCell.swift */; };
 		659DA13B1C9A63ED007CF258 /* DWRankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659DA1391C9A63ED007CF258 /* DWRankCell.xib */; };
+		659F525D1CA285DA00E6CD48 /* DWScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F525C1CA285DA00E6CD48 /* DWScrollView.swift */; };
 		65C7C2221C98EF5A00D88F67 /* DWMovieContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C2211C98EF5A00D88F67 /* DWMovieContainerController.swift */; };
 		65C7C2241C98F57000D88F67 /* DWBuyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C2231C98F57000D88F67 /* DWBuyButton.swift */; };
 		65C7C23F1C9965F600D88F67 /* DWCinemaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C23E1C9965F600D88F67 /* DWCinemaController.swift */; };
@@ -62,6 +63,7 @@
 		65C7C24E1C997AEC00D88F67 /* DWCinemaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C7C24C1C997AEC00D88F67 /* DWCinemaCell.xib */; };
 		65C7C2511C998A6D00D88F67 /* DWTagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C2501C998A6D00D88F67 /* DWTagLabel.swift */; };
 		65C7C2531C998EB800D88F67 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C2521C998EB800D88F67 /* StringExt.swift */; };
+		65E471E81CA26D6300699C46 /* DWPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E471E71CA26D6300699C46 /* DWPhotoContainerView.swift */; };
 		65EEC6731C98297F00E644AE /* DWActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEC6721C98297F00E644AE /* DWActor.swift */; };
 		65EEC6771C98374900E644AE /* DWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEC6761C98374900E644AE /* DWNavigationController.swift */; };
 		65EEC6791C983AB900E644AE /* DWBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEC6781C983AB900E644AE /* DWBorderButton.swift */; };
@@ -141,6 +143,7 @@
 		659DA1361C9A5EFC007CF258 /* DWRankService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWRankService.swift; sourceTree = "<group>"; };
 		659DA1381C9A63ED007CF258 /* DWRankCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWRankCell.swift; sourceTree = "<group>"; };
 		659DA1391C9A63ED007CF258 /* DWRankCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWRankCell.xib; sourceTree = "<group>"; };
+		659F525C1CA285DA00E6CD48 /* DWScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWScrollView.swift; sourceTree = "<group>"; };
 		65C7C2211C98EF5A00D88F67 /* DWMovieContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWMovieContainerController.swift; sourceTree = "<group>"; };
 		65C7C2231C98F57000D88F67 /* DWBuyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWBuyButton.swift; sourceTree = "<group>"; };
 		65C7C23E1C9965F600D88F67 /* DWCinemaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWCinemaController.swift; sourceTree = "<group>"; };
@@ -152,6 +155,7 @@
 		65C7C24C1C997AEC00D88F67 /* DWCinemaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWCinemaCell.xib; sourceTree = "<group>"; };
 		65C7C2501C998A6D00D88F67 /* DWTagLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTagLabel.swift; sourceTree = "<group>"; };
 		65C7C2521C998EB800D88F67 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		65E471E71CA26D6300699C46 /* DWPhotoContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWPhotoContainerView.swift; sourceTree = "<group>"; };
 		65EEC6721C98297F00E644AE /* DWActor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWActor.swift; sourceTree = "<group>"; };
 		65EEC6761C98374900E644AE /* DWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWNavigationController.swift; sourceTree = "<group>"; };
 		65EEC6781C983AB900E644AE /* DWBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWBorderButton.swift; sourceTree = "<group>"; };
@@ -392,6 +396,8 @@
 			isa = PBXGroup;
 			children = (
 				653C6AFE1C9C37400041DF8B /* DWChosenController.swift */,
+				65E471E71CA26D6300699C46 /* DWPhotoContainerView.swift */,
+				659F525C1CA285DA00E6CD48 /* DWScrollView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -711,6 +717,7 @@
 				TargetAttributes = {
 					658F952F1C9405500068D6F8 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 576RU7J295;
 					};
 				};
 			};
@@ -849,6 +856,7 @@
 				65F3A5751C9BB36800BA28E3 /* AvatarImageView.swift in Sources */,
 				65C7C2241C98F57000D88F67 /* DWBuyButton.swift in Sources */,
 				654EB0FC1C9C1C4D00232BE7 /* DWMovieNavController.swift in Sources */,
+				659F525D1CA285DA00E6CD48 /* DWScrollView.swift in Sources */,
 				65F3A54A1C9BB20800BA28E3 /* DWPinController.swift in Sources */,
 				653C6AFF1C9C37400041DF8B /* DWChosenController.swift in Sources */,
 				654377871C9A77E200B81D2F /* UIViewExt.swift in Sources */,
@@ -861,6 +869,7 @@
 				65EEC6791C983AB900E644AE /* DWBorderButton.swift in Sources */,
 				65F3A57C1C9BB57E00BA28E3 /* DWPinModel.swift in Sources */,
 				65C7C2481C9972D700D88F67 /* NSDictionaryExt.swift in Sources */,
+				65E471E81CA26D6300699C46 /* DWPhotoContainerView.swift in Sources */,
 				65138EFF1C968EA7002B0C51 /* DWMovieController.swift in Sources */,
 				653859261CA175A8005A2EF9 /* DWPicsCell.swift in Sources */,
 				659DA1371C9A5EFC007CF258 /* DWRankService.swift in Sources */,
@@ -971,10 +980,14 @@
 			baseConfigurationReference = EC441F7F8726CE73E0FEE474 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Movie/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ddd.Movie;
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.Movie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -983,10 +996,14 @@
 			baseConfigurationReference = 1F101751A54CEDDEE074A6E0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Movie/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ddd.Movie;
+				PRODUCT_BUNDLE_IDENTIFIER = dddd.Movie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
